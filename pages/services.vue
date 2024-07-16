@@ -18,7 +18,6 @@
             :name-key="service.nameKey"
             :desc-key="service.descKey"
             :img-name="`service${service.id}`"
-            :reverse="service.id % 2 !== 0"
             class="w-full">
           </ServiceCard>
         </li>
